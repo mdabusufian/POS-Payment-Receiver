@@ -9,6 +9,8 @@ The solution allows seamless transmission of the Grand Total from the web POS to
 **Login Credentials:**  
 Email: info@demo.com  
 Password: 123456789
+- **Android APK:** https://drive.google.com/file/d/1uWzxpPrnrtrGr5-L9qxxWEalyFeMX9xr/view?usp=sharing
+
 
 ## Features Implemented
 
