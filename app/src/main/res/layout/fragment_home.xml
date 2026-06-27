@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="@color/primary_dark">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <ImageView
+        android:id="@+id/iv_status_icon"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:src="@drawable/ic_payment_pos"
+        android:layout_marginBottom="32dp"
+        android:scaleType="fitCenter"/>
+
+    <TextView
+        android:id="@+id/tv_received_total_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Waiting for Payment..."
+        android:textSize="44sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_white"
+        android:gravity="center"
+        android:lineSpacingExtra="8dp"/>
+
+    <TextView
+        android:id="@+id/tv_sub_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ready to receive from Web POS"
+        android:textColor="@color/text_gray"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btn_pay"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="CONFIRM PAYMENT"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/accent_green"
+        android:textColor="@color/text_white"
+        android:layout_marginTop="40dp"
+        android:visibility="gone"
+        android:elevation="8dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2"/>
+
+    <!-- Removed Bluetooth settings text button -->
+
+</LinearLayout>
